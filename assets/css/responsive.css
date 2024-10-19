@@ -933,6 +933,11 @@
     bottom: 3.5rem;
   }
 
+  .contact .contact-icon {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
   /* FOOTER */
   .footer {
     margin-top: 12rem;
@@ -1348,5 +1353,12 @@
   /* FOOTER */
   .footer .my-email-link {
     visibility: visible;
+  }
+}
+
+@media (max-width: 376.98px) {
+  .container {
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 }
